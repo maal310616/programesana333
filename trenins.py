@@ -21,10 +21,15 @@ def zvaigznites2(skaits):
 
 zvaigznites(7)
 
-skaitlis1 = 4
-skaitlis2 = 3
+sarakts1 = [1, 7, 5, 9, 35, 2]
+sarakts2 = [4, 2, 2, 39, 6, 4]
+for skatitajs in range (len(sarakts1)):
+    print("pirmais skaitlis:", sarakts1[skatitajs], "otrais skaitlis:", sarakts2[skatitajs], "rezultats", rezultats(sarakts1[skatitajs], sarakts2[skatitajs]))
 
-print("pirmais skaitlis:", skaitlis1) 
-print("otrais skaitlis:", skaitlis2)
-print("summa:", rezultats(skaitlis1, skaitlis2))
+    skaitlu_pari = [[2,5], [4,7], [3,4], [7,9]]
+    for i in range(len(skaitlu_pari))
 
+print("--------------")
+
+i = 1
+for in range(len(skaitlu_pari))
