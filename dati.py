@@ -4,7 +4,7 @@ def ierakstit(teksts):
     fails.close()
     return
 
-# ierakstit("Marta, ")
+# ierakstit("Linda, ")
 
 def pierakstit_klat(teksts):
     fails = open("teksts.txt", "a", encoding="utf-8")
@@ -12,7 +12,7 @@ def pierakstit_klat(teksts):
     fails.close()
     return
 
-# pierakstit_klat("Es esmu programmēšanas skolotāja")
+# pierakstit_klat("Es esmu Linda")
     
 def nolasit_visu():
     fails = open("teksts.txt", "r", encoding="utf-8")
